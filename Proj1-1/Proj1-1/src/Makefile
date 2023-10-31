@@ -33,7 +33,8 @@ sim_cache: $(SIM_OBJ)
 
 # type "make clean" to remove all .o files plus the sim_cache binary
 clean:
-	rm -f *.o sim_cache
+	rm -f *.o sim_cache test
+	rm -f *.txt *.diff
 
 
 # type "make clobber" to remove all .o files (leaves sim_cache binary)
