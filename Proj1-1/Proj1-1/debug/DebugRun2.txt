@@ -1,0 +1,555 @@
+# 1 : Read 40012998
+L1 Read: 40012998(tag 400129, index 1)
+Current set	1:	 -     	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	1:  400129   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 2 : Read 40012988
+L1 Read: 40012988(tag 400129, index 1)
+Current set	1:  400129   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 3 : Read 4008b390
+L1 Read: 4008b390(tag 4008b3, index 1)
+Current set	1:  400129   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 4 : Write 4002e84c
+L1 Write: 4002e84c(tag 4002e8, index 0)
+Current set	0:	 -     	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:	 -     	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 5 : Write 4002e850
+L1 Write: 4002e850(tag 4002e8, index 0)
+Current set	0:	 -     	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:	 -     	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 6 : Read 40012988
+L1 Read: 40012988(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 7 : Write 4003c200
+L1 Write: 4003c200(tag 4003c2, index 0)
+Current set	0:	 -     	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:	 -     	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 8 : Read 40012988
+L1 Read: 40012988(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 9 : Write 40049600
+L1 Write: 40049600(tag 400496, index 0)
+Current set	0:	 -     	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:	 -     	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 10 : Read 40012a00
+L1 Read: 40012a00(tag 40012a, index 0)
+Current set	0:	 -     	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 11 : Read 4001298c
+L1 Read: 4001298c(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 12 : Read 4008b390
+L1 Read: 4008b390(tag 4008b3, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 13 : Write 4002e84c
+L1 Write: 4002e84c(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 14 : Write 4002e850
+L1 Write: 4002e850(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 15 : Read 4001298c
+L1 Read: 4001298c(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 16 : Write 4003c204
+L1 Write: 4003c204(tag 4003c2, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 17 : Read 4001298c
+L1 Read: 4001298c(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 18 : Write 40049604
+L1 Write: 40049604(tag 400496, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 19 : Read 40012a04
+L1 Read: 40012a04(tag 40012a, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 20 : Read 40012990
+L1 Read: 40012990(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 21 : Read 4008b390
+L1 Read: 4008b390(tag 4008b3, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 22 : Write 4002e84c
+L1 Write: 4002e84c(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 23 : Write 4002e850
+L1 Write: 4002e850(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 24 : Read 40012990
+L1 Read: 40012990(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 25 : Write 4003c208
+L1 Write: 4003c208(tag 4003c2, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 26 : Read 40012990
+L1 Read: 40012990(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 27 : Write 40049608
+L1 Write: 40049608(tag 400496, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 28 : Read 40012a08
+L1 Read: 40012a08(tag 40012a, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 29 : Write 4002e864
+L1 Write: 4002e864(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 30 : Read 40012994
+L1 Read: 40012994(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 31 : Read 4008b390
+L1 Read: 4008b390(tag 4008b3, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 32 : Write 4002e84c
+L1 Write: 4002e84c(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 33 : Write 4002e850
+L1 Write: 4002e850(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 34 : Read 40012994
+L1 Read: 40012994(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 35 : Write 4003c20c
+L1 Write: 4003c20c(tag 4003c2, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 36 : Read 40012994
+L1 Read: 40012994(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 37 : Write 4004960c
+L1 Write: 4004960c(tag 400496, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 38 : Read 40012a0c
+L1 Read: 40012a0c(tag 40012a, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 39 : Read 40012998
+L1 Read: 40012998(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 40 : Read 4008b390
+L1 Read: 4008b390(tag 4008b3, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 41 : Write 4002e84c
+L1 Write: 4002e84c(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 42 : Write 4002e850
+L1 Write: 4002e850(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 43 : Read 40012998
+L1 Read: 40012998(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 44 : Write 4003c210
+L1 Write: 4003c210(tag 4003c2, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 45 : Read 40012998
+L1 Read: 40012998(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 46 : Write 40049610
+L1 Write: 40049610(tag 400496, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 47 : Read 40012a10
+L1 Read: 40012a10(tag 40012a, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 48 : Read 4001299c
+L1 Read: 4001299c(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 49 : Read 4008b390
+L1 Read: 4008b390(tag 4008b3, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 50 : Write 4002e84c
+L1 Write: 4002e84c(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 51 : Write 4002e850
+L1 Write: 4002e850(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 52 : Read 4001299c
+L1 Read: 4001299c(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 53 : Write 4003c214
+L1 Write: 4003c214(tag 4003c2, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 54 : Read 4001299c
+L1 Read: 4001299c(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 55 : Write 40049614
+L1 Write: 40049614(tag 400496, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 56 : Read 40012a14
+L1 Read: 40012a14(tag 40012a, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 57 : Write 4002e868
+L1 Write: 4002e868(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 58 : Read 400129a0
+L1 Read: 400129a0(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 59 : Read 4008b390
+L1 Read: 4008b390(tag 4008b3, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 60 : Write 4002e84c
+L1 Write: 4002e84c(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 61 : Write 4002e850
+L1 Write: 4002e850(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 62 : Read 400129a0
+L1 Read: 400129a0(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 63 : Write 4003c218
+L1 Write: 4003c218(tag 4003c2, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 64 : Read 400129a0
+L1 Read: 400129a0(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 65 : Write 40049618
+L1 Write: 40049618(tag 400496, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 66 : Read 40012a18
+L1 Read: 40012a18(tag 40012a, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 67 : Read 400129a4
+L1 Read: 400129a4(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 68 : Read 4008b390
+L1 Read: 4008b390(tag 4008b3, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 69 : Write 4002e84c
+L1 Write: 4002e84c(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 70 : Write 4002e850
+L1 Write: 4002e850(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 71 : Read 400129a4
+L1 Read: 400129a4(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 72 : Write 4003c21c
+L1 Write: 4003c21c(tag 4003c2, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 73 : Read 400129a4
+L1 Read: 400129a4(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 74 : Write 4004961c
+L1 Write: 4004961c(tag 400496, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 75 : Read 40012a1c
+L1 Read: 40012a1c(tag 40012a, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 76 : Read 400129a8
+L1 Read: 400129a8(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 77 : Read 4008b390
+L1 Read: 4008b390(tag 4008b3, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 78 : Write 4002e84c
+L1 Write: 4002e84c(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 79 : Write 4002e850
+L1 Write: 4002e850(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 80 : Read 400129a8
+L1 Read: 400129a8(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 81 : Write 4003c220
+L1 Write: 4003c220(tag 4003c2, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 82 : Read 400129a8
+L1 Read: 400129a8(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 83 : Write 40049620
+L1 Write: 40049620(tag 400496, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 84 : Read 40012a20
+L1 Read: 40012a20(tag 40012a, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 85 : Read 400129ac
+L1 Read: 400129ac(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 86 : Read 4008b390
+L1 Read: 4008b390(tag 4008b3, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 87 : Write 4002e84c
+L1 Write: 4002e84c(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 88 : Write 4002e850
+L1 Write: 4002e850(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 89 : Read 400129ac
+L1 Read: 400129ac(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 90 : Write 4003c224
+L1 Write: 4003c224(tag 4003c2, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 91 : Read 400129ac
+L1 Read: 400129ac(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 92 : Write 40049624
+L1 Write: 40049624(tag 400496, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 93 : Read 40012a24
+L1 Read: 40012a24(tag 40012a, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 94 : Read 400129b0
+L1 Read: 400129b0(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 95 : Read 4008b390
+L1 Read: 4008b390(tag 4008b3, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 96 : Write 4002e84c
+L1 Write: 4002e84c(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 97 : Write 4002e850
+L1 Write: 4002e850(tag 4002e8, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 98 : Read 400129b0
+L1 Read: 400129b0(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+# 99 : Write 4003c228
+L1 Write: 4003c228(tag 4003c2, index 0)
+Current set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+L1 MISS, WRITE THROUGH
+Changed set	0:  40012a   	 -     	 -     	 -     	 -     	 -     	 -     	 -     
+# 100 : Read 400129b0
+L1 Read: 400129b0(tag 400129, index 1)
+Current set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     
+L1 HIT
+L1 UPDATE LRU
+Changed set	1:  400129     4008b3   	 -     	 -     	 -     	 -     	 -     	 -     

@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}实验目标}{1}{}%
+\contentsline {section}{\numberline {2}实验内容}{1}{}%
+\contentsline {section}{\numberline {3}实验结果}{1}{}%
+\contentsline {section}{\numberline {4}实验分析}{1}{}%
+\contentsline {subsection}{\numberline {4.1}Miss Rate}{1}{}%
+\contentsline {subsection}{\numberline {4.2}AAT}{2}{}%
+\contentsline {subsection}{\numberline {4.3}最优参数组合}{3}{}%

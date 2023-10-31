@@ -1,0 +1,14 @@
+1. Download all the source files (.cc, .h) plus the Makefile to your own directory. (To download, click on the link with your right mouse button and select "Save Link As...".)
+2. "make" (this will create the binary, sim_cache)
+3. Try running "sim_cache" with any number of arguments. It will simply print "Hello World!" and then echo all the arguments back to you. For example, try this example from the Project 1 spec:
+./sim_cache 32 8192 4 0 1 gcc_trace.txt
+4. "make clean" (this will remove all .o files and the binary sim_cache)
+5. "make" (build again)
+6. "make clobber" (this will remove only .o files, leaving the binary sim_cache)
+---------------------------------------------------------------------
+You only need the Makefile from this directory. (The other bogus .cc/.h files are merely there as an example.) 
+What you need to modify in the Makefile for your own needs:
+1. In the Makefile, replace all the .cc filenames with your .cc filenames, on the line labeled SIM_SRC. You can use as few or as many .cc files as you want.
+2. Likewise, update the names of .o files in the Makefile, on the line labeled SIM_OBJ. There must be a corresponding .o file for every .cc file.
+----------------------------------------------------------------------
+If you are using a different language/compiler, replace CC with your preferred compiler. You may also need to modify the default CFLAGS, depending on what other arguments your compiler requires. Also, if you use a different language, then you may need to change the .cc extensions to something else.

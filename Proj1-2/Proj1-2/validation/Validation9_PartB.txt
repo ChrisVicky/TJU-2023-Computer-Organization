@@ -1,0 +1,42 @@
+===== Simulator configuration =====
+BLOCKSIZE:                    128
+L1_SIZE:                      1024
+L1_ASSOC:                     2
+Victim_Cache_SIZE:            1024
+L2_SIZE:                      4096
+L2_ASSOC:                     4
+trace_file:                   gcc_trace.txt
+===================================
+===== L1 contents =====
+set 0: 2001c1 D  20028d D  
+set 1: 200009    20017a    
+set 2: 200009    200214    
+set 3: 2001f8 D  20028c D  
+===== Victim Cache contents =====
+set 0: f60672 D  80063d D  80088c D  800904    8006b1    800628    8006ae    80063f D  
+===== L2 contents =====
+set 0: 1000c5    1000d6 D  100147 D  1000cc D  
+set 1: 1000bd D  100147 D  10007d    1000d6    
+set 2: 10010a    1000d9 D  10009d    10007d    
+set 3: 1000fc D  1000c5 D  1000d5    10009d    
+set 4: 1000a9 D  100120    100111    100146 D  
+set 5: 100004    10007c    1000c7 D  100146 D  
+set 6: 100004    1000bd D  1000d5    10007c    
+set 7: 1000c7    1000d5    1000c6 D  10011f    
+====== Simulation results (raw) ======
+a. number of L1 reads:                63640
+b. number of L1 read misses:          8160
+c. number of L1 writes:		     36360
+d. number of L1 write misses:         3824
+e. L1 miss rate:                      0.1198
+f. number of swaps:                   9722
+g. number of victim cache writeback:  4763
+h. number of L2 reads:                11984
+i. number of L2 read misses:          7690
+j. number of L2 writes:               4763
+k. number of L2 write misses:         1205
+l. L2 miss rate:                      0.6417
+m. number of L2 writebacks:           3198
+n. total memory traffic:              12093
+==== Simulation results (performance) ====
+1. average access time:         2.6884 ns

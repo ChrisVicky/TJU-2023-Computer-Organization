@@ -1,0 +1,60 @@
+===== Simulator configuration =====
+BLOCKSIZE:                    32
+L1_SIZE:                      2048
+L1_ASSOC:                     4
+Victim_Cache_SIZE:            0
+L2_SIZE:                      4096
+L2_ASSOC:                     8
+trace_file:                   gcc_trace.txt
+===================================
+===== L1 contents =====
+set 0: 20028d D  20018a    20028e D  200198 D  
+set 1: 2001c1 D  20028d D  200153 D  20013b    
+set 2: 200223 D  20028d D  200241    2001c1    
+set 3: 20018a    2001ac D  20028e D  20028d D  
+set 4: 20018f D  2000f9    20017a D  20018a    
+set 5: 200009    20017a    2000fa    20018a    
+set 6: 200009    2000f9    20028d D  20018a    
+set 7: 200009    2001ac    2000fa    200149    
+set 8: 200009    3d819c D  20017b D  2000f9    
+set 9: 200009    2000fa    2000f9    2001b2 D  
+set 10: 200009    200214    2000fa    20023f    
+set 11: 200009    2001ab    20013a    20023f    
+set 12: 20018f D  2001f2    2001aa    20018a D  
+set 13: 20028d D  20018d D  20013a    20028c D  
+set 14: 20013a    20018d D  20028d D  2001ad D  
+set 15: 2001f8 D  20028c D  20013a    20018d D  
+===== L2 contents =====
+set 0: 20018a    20028e    200198    2001ab    2001d1 D  20017a D  20028d    2001f4 D  
+set 1: 2001c1    200153 D  20028e D  20013b    200198 D  2000fb    2001d1 D  20028d    
+set 2: 200241    20028d D  200223    200149    200198 D  20018a    2001c1 D  20013b    
+set 3: 2001ac    2001c1 D  20028e    2001b0 D  20028d    20028c D  20018a    2001bd D  
+set 4: 2000f9    20028e D  20018a    20028d D  20017a D  20023f    200149    2002b1 D  
+set 5: 20017a    20028e D  200009    20028d D  2000fa    2001b2 D  20018a    20023f    
+set 6: 200009    2000f9    2001b2 D  20023f    2001ac D  2001ad D  20028d    20028c D  
+set 7: 200009    20028d D  2000fa    2001b2 D  2001ac    20023f    200149    2001f6 D  
+set 8: 200009    20017b D  2000fa    2001b2 D  2000f9    20028d D  20023f    200149    
+set 9: 200009    2000fa    20028d D  2001b2    20023f    3d819c D  20028c D  2001aa    
+set 10: 200009    200214 D  20028d D  20023f    2001ab D  2001aa    2001fc D  2000fa    
+set 11: 200009    2001ab    20028d D  20023f    2001aa    200214 D  20028c D  20013a    
+set 12: 20018f    2001aa    20018a    2001f2    20023f    20028d D  20018d D  2001ab    
+set 13: 20028d    2001b3 D  20018d    2001ab D  20013a    2001b2 D  20028c    2001fe D  
+set 14: 20028d    20028c D  20018d    2001a7 D  20013a    2001b2 D  2001ad D  2001fd D  
+set 15: 20013a    20028d D  20018d    200197 D  2001f8    2001a9 D  200222 D  2001d1 D  
+====== Simulation results (raw) ======
+a. number of L1 reads:                63640
+b. number of L1 read misses:          5170
+c. number of L1 writes:		     36360
+d. number of L1 write misses:         4452
+e. L1 miss rate:                      0.0962
+f. number of swaps:                   0
+g. number of victim cache writeback:  0
+h. number of L2 reads:                9622
+i. number of L2 read misses:          5313
+j. number of L2 writes:               4942
+k. number of L2 write misses:         151
+l. L2 miss rate:                      0.5522
+m. number of L2 writebacks:           2978
+n. total memory traffic:              8442
+==== Simulation results (performance) ====
+1. average access time:         1.7920 ns

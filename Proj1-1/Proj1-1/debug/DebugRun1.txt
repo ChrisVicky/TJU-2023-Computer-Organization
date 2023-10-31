@@ -1,0 +1,619 @@
+# 1 : Write 400341a0
+L1 Write: 400341a0(tag 1000d, index 26)
+Current set	26:	 -     
+L1 MISS
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	26:  1000d D 
+# 2 : Read dfcfa8
+L1 Read: dfcfa8(tag 37f, index 250)
+Current set	250:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	250:  37f   
+# 3 : Write 7b034dd4
+L1 Write: 7b034dd4(tag 1ec0d, index 221)
+Current set	221:	 -     
+L1 MISS
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	221:  1ec0d D 
+# 4 : Read df7c48
+L1 Read: df7c48(tag 37d, index 964)
+Current set	964:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	964:  37d   
+# 5 : Read 7b034dd4
+L1 Read: 7b034dd4(tag 1ec0d, index 221)
+Current set	221:  1ec0d D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	221:  1ec0d D 
+# 6 : Read 423aebbc
+L1 Read: 423aebbc(tag 108eb, index 699)
+Current set	699:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	699:  108eb   
+# 7 : Read 423aebb8
+L1 Read: 423aebb8(tag 108eb, index 699)
+Current set	699:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	699:  108eb   
+# 8 : Read 423aebbc
+L1 Read: 423aebbc(tag 108eb, index 699)
+Current set	699:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	699:  108eb   
+# 9 : Read 40002634
+L1 Read: 40002634(tag 10000, index 611)
+Current set	611:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	611:  10000   
+# 10 : Write 40139dd0
+L1 Write: 40139dd0(tag 1004e, index 477)
+Current set	477:	 -     
+L1 MISS
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	477:  1004e D 
+# 11 : Read 423aeb9c
+L1 Read: 423aeb9c(tag 108eb, index 697)
+Current set	697:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	697:  108eb   
+# 12 : Write 40139dd4
+L1 Write: 40139dd4(tag 1004e, index 477)
+Current set	477:  1004e D 
+L1 HIT
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	477:  1004e D 
+# 13 : Write 40138938
+L1 Write: 40138938(tag 1004e, index 147)
+Current set	147:	 -     
+L1 MISS
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	147:  1004e D 
+# 14 : Read 423aeba0
+L1 Read: 423aeba0(tag 108eb, index 698)
+Current set	698:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	698:  108eb   
+# 15 : Write 4013893c
+L1 Write: 4013893c(tag 1004e, index 147)
+Current set	147:  1004e D 
+L1 HIT
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	147:  1004e D 
+# 16 : Read 7b034dcc
+L1 Read: 7b034dcc(tag 1ec0d, index 220)
+Current set	220:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	220:  1ec0d   
+# 17 : Read df8a70
+L1 Read: df8a70(tag 37e, index 167)
+Current set	167:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	167:  37e   
+# 18 : Write 7b034c50
+L1 Write: 7b034c50(tag 1ec0d, index 197)
+Current set	197:	 -     
+L1 MISS
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	197:  1ec0d D 
+# 19 : Write 7b034c68
+L1 Write: 7b034c68(tag 1ec0d, index 198)
+Current set	198:	 -     
+L1 MISS
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	198:  1ec0d D 
+# 20 : Read df9f10
+L1 Read: df9f10(tag 37e, index 497)
+Current set	497:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	497:  37e   
+# 21 : Write 7b034da8
+L1 Write: 7b034da8(tag 1ec0d, index 218)
+Current set	218:	 -     
+L1 MISS
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	218:  1ec0d D 
+# 22 : Read 7b034dcc
+L1 Read: 7b034dcc(tag 1ec0d, index 220)
+Current set	220:  1ec0d   
+L1 HIT
+L1 UPDATE LRU
+Changed set	220:  1ec0d   
+# 23 : Read df8a74
+L1 Read: df8a74(tag 37e, index 167)
+Current set	167:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	167:  37e   
+# 24 : Write 7b034c54
+L1 Write: 7b034c54(tag 1ec0d, index 197)
+Current set	197:  1ec0d D 
+L1 HIT
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	197:  1ec0d D 
+# 25 : Write 7b034c6c
+L1 Write: 7b034c6c(tag 1ec0d, index 198)
+Current set	198:  1ec0d D 
+L1 HIT
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	198:  1ec0d D 
+# 26 : Read df9f14
+L1 Read: df9f14(tag 37e, index 497)
+Current set	497:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	497:  37e   
+# 27 : Write 7b034dac
+L1 Write: 7b034dac(tag 1ec0d, index 218)
+Current set	218:  1ec0d D 
+L1 HIT
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	218:  1ec0d D 
+# 28 : Read 40138938
+L1 Read: 40138938(tag 1004e, index 147)
+Current set	147:  1004e D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	147:  1004e D 
+# 29 : Write 7b034d90
+L1 Write: 7b034d90(tag 1ec0d, index 217)
+Current set	217:	 -     
+L1 MISS
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	217:  1ec0d D 
+# 30 : Read 7b034c68
+L1 Read: 7b034c68(tag 1ec0d, index 198)
+Current set	198:  1ec0d D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	198:  1ec0d D 
+# 31 : Read df84d4
+L1 Read: df84d4(tag 37e, index 77)
+Current set	77:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 32 : Read df84d5
+L1 Read: df84d5(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 33 : Read df84d6
+L1 Read: df84d6(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 34 : Read df84d7
+L1 Read: df84d7(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 35 : Read df84d8
+L1 Read: df84d8(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 36 : Read df84d9
+L1 Read: df84d9(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 37 : Read df84da
+L1 Read: df84da(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 38 : Read df84db
+L1 Read: df84db(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 39 : Read df84dc
+L1 Read: df84dc(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 40 : Read df84dd
+L1 Read: df84dd(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 41 : Read df84de
+L1 Read: df84de(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 42 : Read df84df
+L1 Read: df84df(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 43 : Read df84e0
+L1 Read: df84e0(tag 37e, index 78)
+Current set	78:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 44 : Read df84e1
+L1 Read: df84e1(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 45 : Read df84e2
+L1 Read: df84e2(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 46 : Read df84e3
+L1 Read: df84e3(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 47 : Read 4013893c
+L1 Read: 4013893c(tag 1004e, index 147)
+Current set	147:  1004e D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	147:  1004e D 
+# 48 : Write 7b034d94
+L1 Write: 7b034d94(tag 1ec0d, index 217)
+Current set	217:  1ec0d D 
+L1 HIT
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	217:  1ec0d D 
+# 49 : Read 7b034c6c
+L1 Read: 7b034c6c(tag 1ec0d, index 198)
+Current set	198:  1ec0d D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	198:  1ec0d D 
+# 50 : Read df84e4
+L1 Read: df84e4(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 51 : Read df84e5
+L1 Read: df84e5(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 52 : Read df84e6
+L1 Read: df84e6(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 53 : Read df84e7
+L1 Read: df84e7(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 54 : Read df84e8
+L1 Read: df84e8(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 55 : Read df84e9
+L1 Read: df84e9(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 56 : Read df84ea
+L1 Read: df84ea(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 57 : Read df84eb
+L1 Read: df84eb(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 58 : Read df84ec
+L1 Read: df84ec(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 59 : Read df84ed
+L1 Read: df84ed(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 60 : Read df84ee
+L1 Read: df84ee(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 61 : Read df84ef
+L1 Read: df84ef(tag 37e, index 78)
+Current set	78:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	78:  37e   
+# 62 : Read df84f0
+L1 Read: df84f0(tag 37e, index 79)
+Current set	79:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	79:  37e   
+# 63 : Read df84f1
+L1 Read: df84f1(tag 37e, index 79)
+Current set	79:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	79:  37e   
+# 64 : Read df84f2
+L1 Read: df84f2(tag 37e, index 79)
+Current set	79:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	79:  37e   
+# 65 : Read df84f3
+L1 Read: df84f3(tag 37e, index 79)
+Current set	79:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	79:  37e   
+# 66 : Read df84f4
+L1 Read: df84f4(tag 37e, index 79)
+Current set	79:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	79:  37e   
+# 67 : Read df84f5
+L1 Read: df84f5(tag 37e, index 79)
+Current set	79:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	79:  37e   
+# 68 : Read 40138938
+L1 Read: 40138938(tag 1004e, index 147)
+Current set	147:  1004e D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	147:  1004e D 
+# 69 : Read 423aeb90
+L1 Read: 423aeb90(tag 108eb, index 697)
+Current set	697:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	697:  108eb   
+# 70 : Write 7b034d58
+L1 Write: 7b034d58(tag 1ec0d, index 213)
+Current set	213:	 -     
+L1 MISS
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	213:  1ec0d D 
+# 71 : Write 7b034c80
+L1 Write: 7b034c80(tag 1ec0d, index 200)
+Current set	200:	 -     
+L1 MISS
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	200:  1ec0d D 
+# 72 : Read 7b034c68
+L1 Read: 7b034c68(tag 1ec0d, index 198)
+Current set	198:  1ec0d D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	198:  1ec0d D 
+# 73 : Read df84d4
+L1 Read: df84d4(tag 37e, index 77)
+Current set	77:  37e   
+L1 HIT
+L1 UPDATE LRU
+Changed set	77:  37e   
+# 74 : Read 40138938
+L1 Read: 40138938(tag 1004e, index 147)
+Current set	147:  1004e D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	147:  1004e D 
+# 75 : Read 40139dd0
+L1 Read: 40139dd0(tag 1004e, index 477)
+Current set	477:  1004e D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	477:  1004e D 
+# 76 : Read 423aeb92
+L1 Read: 423aeb92(tag 108eb, index 697)
+Current set	697:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	697:  108eb   
+# 77 : Read 423aeb94
+L1 Read: 423aeb94(tag 108eb, index 697)
+Current set	697:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	697:  108eb   
+# 78 : Read 423aeb88
+L1 Read: 423aeb88(tag 108eb, index 696)
+Current set	696:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	696:  108eb   
+# 79 : Read 423aeb88
+L1 Read: 423aeb88(tag 108eb, index 696)
+Current set	696:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	696:  108eb   
+# 80 : Read 423aeb88
+L1 Read: 423aeb88(tag 108eb, index 696)
+Current set	696:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	696:  108eb   
+# 81 : Read 423aeb88
+L1 Read: 423aeb88(tag 108eb, index 696)
+Current set	696:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	696:  108eb   
+# 82 : Read 423aeb8c
+L1 Read: 423aeb8c(tag 108eb, index 696)
+Current set	696:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	696:  108eb   
+# 83 : Read 42351e38
+L1 Read: 42351e38(tag 108d4, index 483)
+Current set	483:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	483:  108d4   
+# 84 : Read 42351e3c
+L1 Read: 42351e3c(tag 108d4, index 483)
+Current set	483:  108d4   
+L1 HIT
+L1 UPDATE LRU
+Changed set	483:  108d4   
+# 85 : Read 423aeb88
+L1 Read: 423aeb88(tag 108eb, index 696)
+Current set	696:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	696:  108eb   
+# 86 : Write 40022e80
+L1 Write: 40022e80(tag 10008, index 744)
+Current set	744:	 -     
+L1 MISS
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	744:  10008 D 
+# 87 : Read 423aeb88
+L1 Read: 423aeb88(tag 108eb, index 696)
+Current set	696:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	696:  108eb   
+# 88 : Read 4214c9d4
+L1 Read: 4214c9d4(tag 10853, index 157)
+Current set	157:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	157:  10853   
+# 89 : Read 40002178
+L1 Read: 40002178(tag 10000, index 535)
+Current set	535:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	535:  10000   
+# 90 : Read 384130
+L1 Read: 384130(tag e1, index 19)
+Current set	19:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	19:  e1   
+# 91 : Read 423aeb8c
+L1 Read: 423aeb8c(tag 108eb, index 696)
+Current set	696:  108eb   
+L1 HIT
+L1 UPDATE LRU
+Changed set	696:  108eb   
+# 92 : Read 42351e38
+L1 Read: 42351e38(tag 108d4, index 483)
+Current set	483:  108d4   
+L1 HIT
+L1 UPDATE LRU
+Changed set	483:  108d4   
+# 93 : Read 42351e3c
+L1 Read: 42351e3c(tag 108d4, index 483)
+Current set	483:  108d4   
+L1 HIT
+L1 UPDATE LRU
+Changed set	483:  108d4   
+# 94 : Read 401367d0
+L1 Read: 401367d0(tag 1004d, index 637)
+Current set	637:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	637:  1004d   
+# 95 : Read 7b0345e4
+L1 Read: 7b0345e4(tag 1ec0d, index 94)
+Current set	94:	 -     
+L1 MISS
+L1 UPDATE LRU
+Changed set	94:  1ec0d   
+# 96 : Write 423aeb8c
+L1 Write: 423aeb8c(tag 108eb, index 696)
+Current set	696:  108eb   
+L1 HIT
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	696:  108eb D 
+# 97 : Write 423aeb94
+L1 Write: 423aeb94(tag 108eb, index 697)
+Current set	697:  108eb   
+L1 HIT
+L1 UPDATE LRU
+L1 SET DIRTY
+Changed set	697:  108eb D 
+# 98 : Read 40022e80
+L1 Read: 40022e80(tag 10008, index 744)
+Current set	744:  10008 D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	744:  10008 D 
+# 99 : Read 40139dd0
+L1 Read: 40139dd0(tag 1004e, index 477)
+Current set	477:  1004e D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	477:  1004e D 
+# 100 : Read 423aeb9c
+L1 Read: 423aeb9c(tag 108eb, index 697)
+Current set	697:  108eb D 
+L1 HIT
+L1 UPDATE LRU
+Changed set	697:  108eb D

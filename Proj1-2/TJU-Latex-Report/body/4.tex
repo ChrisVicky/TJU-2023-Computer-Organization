@@ -1,0 +1,81 @@
+
+\section{实验分析}
+
+\subsection{Miss Rate}
+
+如图\ref{fig:mr} 所示：
+
+\begin{figure}[!hbtp]
+    \centering
+    \subfmacro{ls1}{L1 Cache Size}{.31}
+    \subfmacro{a1}{Associativity}{.31}
+    \subfmacro{bs1}{Block Size}{.31} 
+    \caption{Miss Rate}\label{fig:mr}
+\end{figure}
+
+\begin{itemize}
+    \item 当 L1 缓存大小增加时，L1MissRate 平均值呈现下降趋势。这是符合预期的，因为更大的缓存大小通常意味着更低的缺失率。
+    \item L1 Associativity 值与 L1MissRate 之间的关系似乎并不明确。这可能是因为其他参数的变化对缺失率产生了影响，使得 associativity 的影响不太明显。通常，增加 associativity 可以减少缺失率，但如果其他参数不合适，这种效果可能会受到抵消。
+    \item 对于给定的数据，块大小似乎并没有对 L1MissRate 产生显著的影响。这可能是因为块大小的选择需要与其他参数，如缓存大小和 associativity，相匹配才能获得最佳性能。
+\end{itemize}
+
+
+\subsection{AAT}
+
+如图\ref{fig:aatL1} 和 \ref{fig:aatL2} 所示：
+
+\begin{figure}[!hbtp]
+    \centering
+
+    \subfmacro{l1_size_assoc_trace1}{Gcc}{.31}
+    \subfmacro{l1_size_assoc_trace2}{Go}{.31}
+    \subfmacro{l1_size_assoc_trace3}{Perl}{.31}
+    \caption{AAT - L1 Cache}\label{fig:aatL1}
+
+\end{figure}
+
+\begin{figure}[!hbtp]
+    \centering
+    \subfmacro{l2_size_assoc_trace1}{Gcc}{.31}
+    \subfmacro{l2_size_assoc_trace2}{Go}{.31}
+    \subfmacro{l2_size_assoc_trace3}{Perl}{.31}
+    \caption{AAT - L2 Cache}\label{fig:aatL2}
+
+\end{figure}
+
+\begin{itemize}
+    \item 增大 L1 Cache Size 或 L1 ASSOC 通常可以降低 AAT。这可能是因为增大这些参数可以增加缓存的容量和关联性，从而降低缺失率和增加缓存命中率。
+    \item 与 L1 缓存类似，增大 L2 SIZE 或 L2 ASSOC 也可以降低 AAT。但是，L2 缓存的影响可能不如 L1 缓存明显，因为 L2 缓存通常在 L1 缓存缺失时才被访问。
+\end{itemize}
+
+如图 \ref{fig:aatBs} 所示：
+
+\begin{figure}[!htbp]
+    \centering
+    \subfmacro{blocksize_comparison}{Block Size}{.47}
+    \subfmacro{victim_comparison_sorted}{Victim Size}{.47}
+    \caption{AAT}\label{fig:aatBs}
+\end{figure}
+
+
+\begin{itemize}
+    \item 对于所有三个 trace file，随着 BLOCKSIZE 的增加，AAT 似乎都有所减少，尤其在较小的 BLOCKSIZE 值时下降得较为明显。这可能是因为增大 BLOCKSIZE 可以提高空间局部性，从而增加缓存命中率。但是，BLOCKSIZE 过大可能会导致缓存行里的一些数据没有被利用，从而浪费缓存空间。对于 \verb|go_trace.txt|，在 BLOCKSIZE 较大时，AAT 的减少不如其他两个明显，这可能是因为这个工作负载与其他两个有所不同。
+    \item 对于所有三个 trace file，当 Victim Cache SIZE 为 512 时，AAT 值都是最高的。这可能是因为该大小不适合这些特定的工作负载，或者这个大小的 Victim Cache 在逐出数据时可能不够有效。
+        随着 Victim Cache SIZE 的增加（从 512 开始），AAT 明显降低。这表明，增大 Victim Cache 的大小可以提高其效率，从而降低 AAT。当 Victim Cache SIZE 达到一定值后，例如 32 或 64，AAT 的下降趋势放缓，表明在这些值之后，进一步增加 Victim Cache 的大小可能不会带来显著的性能提升。
+\end{itemize}
+
+\subsection{最优参数组合}
+
+\begin{table}[!htbp]
+    \centering
+    \caption{最优参数组合}\label{tab:res2}
+    \begin{tabular}{cccccc}
+        \hline
+        Trace & L1 & L2 & blocksize & victim size & Best AAT \\
+        \hline
+        gcc & 8192, 2 & 65536, 8 & 128 & 4096 & 0.8182 \\
+        go & 2048, 2 & 65536, 2 & 128 & 2048 & 0.8466 \\
+        perl & 8192, 2 & 65536, 2 & 64 & 4096 & 0.6714 \\
+        \hline
+    \end{tabular}
+\end{table}

@@ -1,0 +1,158 @@
+===== Simulator configuration =====
+BLOCKSIZE:                    64
+L1_SIZE:                      8192
+L1_ASSOC:                     2
+Victim_Cache_SIZE:            1024
+L2_SIZE:                      16384
+L2_ASSOC:                     4
+trace_file:                   perl_trace.txt
+===================================
+===== L1 contents =====
+set 0: 4002d D  4002c D  
+set 1: 4002c D  4002d D  
+set 2: 40016 D  4002d D  
+set 3: 4002d D  4002c D  
+set 4: 4002d D  4001d D  
+set 5: 4002a    4002c D  
+set 6: 4002b D  4002c D  
+set 7: 4001d    4002c D  
+set 8: 4000f D  4002c D  
+set 9: 40011 D  4002c D  
+set 10: 40002    4002c D  
+set 11: 40002    40019    
+set 12: 4002c D  40028    
+set 13: 40013 D  4002b    
+set 14: 40013 D  4002c    
+set 15: 4001d    40028    
+set 16: 4001b    4000d    
+set 17: 4000d D  4002b    
+set 18: 4000d D  40028    
+set 19: 4001e    4000d    
+set 20: 4001e    40028    
+set 21: 4002b D  4002a    
+set 22: 4000d    4002a    
+set 23: 4002b D  4002c D  
+set 24: 4002b D  4002c D  
+set 25: 4002c D  4002b D  
+set 26: 4002b D  4002c D  
+set 27: 4002b D  4002c D  
+set 28: 4002c D  4002b D  
+set 29: 4000c    4002c D  
+set 30: 4002c D  4002b D  
+set 31: 4002c D  4002b D  
+set 32: 4001e D  4002c D  
+set 33: 4002c D  4002b D  
+set 34: 4001e    4001c D  
+set 35: 4001e    4002c D  
+set 36: 4001e    4002c D  
+set 37: 4001e D  4000b D  
+set 38: 4001e D  4002c D  
+set 39: 4001e D  4002c D  
+set 40: 4002c D  4002b D  
+set 41: 4002c D  4002b D  
+set 42: 4001e    4002a    
+set 43: 40016 D  4001e    
+set 44: 40013 D  4002c D  
+set 45: 40013    4002c D  
+set 46: 4001e D  7b033 D  
+set 47: 7b033    4002c D  
+set 48: 4001e    4001c    
+set 49: 4001e    4002c D  
+set 50: 4001b D  4001e    
+set 51: 4001b D  4002c D  
+set 52: 4001b D  4001e    
+set 53: 4002c D  4001d D  
+set 54: 4001b    7b033 D  
+set 55: 4002c D  4002b D  
+set 56: 4001b D  4002b    
+set 57: 7b033 D  4002c D  
+set 58: 4002c D  4002b D  
+set 59: 7b033 D  4002c D  
+set 60: 4002c D  4002b D  
+set 61: 7b033 D  4002c D  
+set 62: 4002c D  40029 D  
+set 63: 4002c D  4001d    
+===== Victim Cache contents =====
+set 0: 10004ee D  1000ad4 D  1000b04 D  1000ac3 D  1000774    1000b02 D  1000ac1 D  1000b38 D  1000ac0 D  1000a13    1000aff D  1000afe D  1000b25    1000a7d    1000abc    1000750    
+===== L2 contents =====
+set 0: 4002d    4002c    4002a D  4002b D  
+set 1: 4002d    4002a D  4002c    4002b    
+set 2: 4002d    4002c    4002a D  4001d D  
+set 3: 4002d    4002a D  4002c    4002b    
+set 4: 4002d    4002c    4002b D  4001d D  
+set 5: 4002b D  4002a D  4002c    4001d D  
+set 6: 4001d D  4002c    4002a D  4002b    
+set 7: 4002a D  4002c    4002b D  4001d D  
+set 8: 4002b D  4002c    4002a D  40028    
+set 9: 4002c    4002a D  4001d D  40011 D  
+set 10: 4002c    4002b D  40002    40028    
+set 11: 4002a    4002c D  4001d D  40028    
+set 12: 4002b D  4002c    40028    4002a D  
+set 13: 4002c D  4002b    4002a D  40028    
+set 14: 4002c D  4002a D  40028    40013 D  
+set 15: 4002c D  4001d    4002a D  40028    
+set 16: 4001d    4002c D  40028    4002a D  
+set 17: 4002b D  4002c D  40028    4000d D  
+set 18: 4002b D  4002c D  40028    4002a D  
+set 19: 40028    4002b D  4002c D  4000d    
+set 20: 40028    4002c D  4002b D  4001d D  
+set 21: 4002c D  4002a D  4001d D  4002b    
+set 22: 4002b D  4002a    4002c D  4000d D  
+set 23: 4002a D  4002c    4001d D  4002b    
+set 24: 4001d D  4002c    4002a D  4002b    
+set 25: 4002a D  4002c    4001d D  4002b    
+set 26: 4001d D  4002c    4002a D  4002b    
+set 27: 4001d D  4002b D  4002c    4002a D  
+set 28: 4002a D  4002c    4001d D  4002b    
+set 29: 4002c    4002b D  4001d D  4002a D  
+set 30: 4002a D  4002c    4001d D  4002b    
+set 31: 4002a D  4002c    4001d D  4002b    
+set 32: 4002b D  4002c    4001e D  4002a D  
+set 33: 4002a D  4002c    4001d D  4002b    
+set 34: 4002c D  4002b D  4001d D  4001c D  
+set 35: 4002b D  4002c    4002a D  4001d D  
+set 36: 4002b D  4002c    4002a D  4001d D  
+set 37: 4002c D  4002b D  4001c    4001e D  
+set 38: 4002c    4002b D  4002a D  4001d D  
+set 39: 4002b D  4002c    4001c D  4002a D  
+set 40: 4002c    4001c D  4002a D  4002b    
+set 41: 4002a D  4002c    4001d D  4002b    
+set 42: 4002c D  4002a D  4002b D  4001d    
+set 43: 4002c D  4002a    4002b D  4001d D  
+set 44: 4002b D  4002c    40013 D  4002a D  
+set 45: 4002b D  4002c    4001c D  40013    
+set 46: 4002c D  4002b D  40013 D  4002a D  
+set 47: 4002b D  4002c    4001c D  7b033 D  
+set 48: 4002c D  4002b D  4001c    4002a D  
+set 49: 4001c D  4002c    4002b D  4001d D  
+set 50: 4002c D  4002b D  4001d D  4002a D  
+set 51: 4002b D  4002c    4001d D  4002a D  
+set 52: 4001d D  4002c D  4002b D  4001c D  
+set 53: 4002b D  4002c    4002a D  4001c D  
+set 54: 4002c D  4002b D  4001d D  4002a D  
+set 55: 4001c D  4002c    4001d D  4002b    
+set 56: 4002b D  4002c    4001d D  4001b D  
+set 57: 4002c    4002b D  4002a D  4001c D  
+set 58: 4001d D  4002c    4002a D  4002b    
+set 59: 4002c    4002b D  4002a D  4001d D  
+set 60: 4002c    4002a D  4002b    4001d D  
+set 61: 4002c    4002b D  40029 D  4001d D  
+set 62: 4002c    4002a D  4002b    4001d D  
+set 63: 4002c    4001c D  4002b    4002a D  
+====== Simulation results (raw) ======
+a. number of L1 reads:                70107
+b. number of L1 read misses:          1927
+c. number of L1 writes:		     29893
+d. number of L1 write misses:         569
+e. L1 miss rate:                      0.0250
+f. number of swaps:                   1382
+g. number of victim cache writeback:  766
+h. number of L2 reads:                2496
+i. number of L2 read misses:          1268
+j. number of L2 writes:               766
+k. number of L2 write misses:         123
+l. L2 miss rate:                      0.5080
+m. number of L2 writebacks:           415
+n. total memory traffic:              1806
+==== Simulation results (performance) ====
+1. average access time:         0.7874 ns

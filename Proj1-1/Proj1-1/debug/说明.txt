@@ -1,0 +1,12 @@
+1. These are the debug runs, which provide a step-by-step execution of the trace through the simulator. The debug runs are not run for the entire trace, but only the first few addresses (about 1000). This should be enough to expose logical flaws during debugging.
+
+2. The following commands are to be used:
+./sim_cache 16 16384 1 0 0 gcc_trace.txt > DebugRun1.txt
+
+./sim_cache 128 2048 8 0 1 go_trace.txt > DebugRun2.txt
+
+./sim_cache 32 4096 4 0 1 perl_trace.txt > DebugRun3.txt
+
+./sim_cache 64 8192 2 1 0 gcc_trace.txt > DebugRun4.txt
+
+./sim_cache 32 1024 4 1 1 go_trace.txt > DebugRun5.txt

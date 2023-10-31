@@ -1,0 +1,619 @@
+# 1 : Write 400341a0
+L1 Write: 400341a0(tag 40034, index 6)
+Current set	6:	 -     	 -     
+L1 MISS
+Count_Block Update
+L1 SET DIRTY
+Changed set	6:  40034 D 	 -     
+# 2 : Read dfcfa8
+L1 Read: dfcfa8(tag dfc, index 62)
+Current set	62:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	62:  dfc   	 -     
+# 3 : Write 7b034dd4
+L1 Write: 7b034dd4(tag 7b034, index 55)
+Current set	55:	 -     	 -     
+L1 MISS
+Count_Block Update
+L1 SET DIRTY
+Changed set	55:  7b034 D 	 -     
+# 4 : Read df7c48
+L1 Read: df7c48(tag df7, index 49)
+Current set	49:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	49:  df7   	 -     
+# 5 : Read 7b034dd4
+L1 Read: 7b034dd4(tag 7b034, index 55)
+Current set	55:  7b034 D 	 -     
+L1 HIT
+Count_Block Update
+Changed set	55:  7b034 D 	 -     
+# 6 : Read 423aebbc
+L1 Read: 423aebbc(tag 423ae, index 46)
+Current set	46:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 7 : Read 423aebb8
+L1 Read: 423aebb8(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 8 : Read 423aebbc
+L1 Read: 423aebbc(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 9 : Read 40002634
+L1 Read: 40002634(tag 40002, index 24)
+Current set	24:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	24:  40002   	 -     
+# 10 : Write 40139dd0
+L1 Write: 40139dd0(tag 40139, index 55)
+Current set	55:  7b034 D 	 -     
+L1 MISS
+Count_Block Update
+L1 SET DIRTY
+Changed set	55:  7b034 D   40139 D 
+# 11 : Read 423aeb9c
+L1 Read: 423aeb9c(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 12 : Write 40139dd4
+L1 Write: 40139dd4(tag 40139, index 55)
+Current set	55:  7b034 D   40139 D 
+L1 HIT
+Count_Block Update
+L1 SET DIRTY
+Changed set	55:  7b034 D   40139 D 
+# 13 : Write 40138938
+L1 Write: 40138938(tag 40138, index 36)
+Current set	36:	 -     	 -     
+L1 MISS
+Count_Block Update
+L1 SET DIRTY
+Changed set	36:  40138 D 	 -     
+# 14 : Read 423aeba0
+L1 Read: 423aeba0(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 15 : Write 4013893c
+L1 Write: 4013893c(tag 40138, index 36)
+Current set	36:  40138 D 	 -     
+L1 HIT
+Count_Block Update
+L1 SET DIRTY
+Changed set	36:  40138 D 	 -     
+# 16 : Read 7b034dcc
+L1 Read: 7b034dcc(tag 7b034, index 55)
+Current set	55:  7b034 D   40139 D 
+L1 HIT
+Count_Block Update
+Changed set	55:  7b034 D   40139 D 
+# 17 : Read df8a70
+L1 Read: df8a70(tag df8, index 41)
+Current set	41:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	41:  df8   	 -     
+# 18 : Write 7b034c50
+L1 Write: 7b034c50(tag 7b034, index 49)
+Current set	49:  df7   	 -     
+L1 MISS
+Count_Block Update
+L1 SET DIRTY
+Changed set	49:  df7     7b034 D 
+# 19 : Write 7b034c68
+L1 Write: 7b034c68(tag 7b034, index 49)
+Current set	49:  df7     7b034 D 
+L1 HIT
+Count_Block Update
+L1 SET DIRTY
+Changed set	49:  df7     7b034 D 
+# 20 : Read df9f10
+L1 Read: df9f10(tag df9, index 60)
+Current set	60:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	60:  df9   	 -     
+# 21 : Write 7b034da8
+L1 Write: 7b034da8(tag 7b034, index 54)
+Current set	54:	 -     	 -     
+L1 MISS
+Count_Block Update
+L1 SET DIRTY
+Changed set	54:  7b034 D 	 -     
+# 22 : Read 7b034dcc
+L1 Read: 7b034dcc(tag 7b034, index 55)
+Current set	55:  7b034 D   40139 D 
+L1 HIT
+Count_Block Update
+Changed set	55:  7b034 D   40139 D 
+# 23 : Read df8a74
+L1 Read: df8a74(tag df8, index 41)
+Current set	41:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	41:  df8   	 -     
+# 24 : Write 7b034c54
+L1 Write: 7b034c54(tag 7b034, index 49)
+Current set	49:  df7     7b034 D 
+L1 HIT
+Count_Block Update
+L1 SET DIRTY
+Changed set	49:  df7     7b034 D 
+# 25 : Write 7b034c6c
+L1 Write: 7b034c6c(tag 7b034, index 49)
+Current set	49:  df7     7b034 D 
+L1 HIT
+Count_Block Update
+L1 SET DIRTY
+Changed set	49:  df7     7b034 D 
+# 26 : Read df9f14
+L1 Read: df9f14(tag df9, index 60)
+Current set	60:  df9   	 -     
+L1 HIT
+Count_Block Update
+Changed set	60:  df9   	 -     
+# 27 : Write 7b034dac
+L1 Write: 7b034dac(tag 7b034, index 54)
+Current set	54:  7b034 D 	 -     
+L1 HIT
+Count_Block Update
+L1 SET DIRTY
+Changed set	54:  7b034 D 	 -     
+# 28 : Read 40138938
+L1 Read: 40138938(tag 40138, index 36)
+Current set	36:  40138 D 	 -     
+L1 HIT
+Count_Block Update
+Changed set	36:  40138 D 	 -     
+# 29 : Write 7b034d90
+L1 Write: 7b034d90(tag 7b034, index 54)
+Current set	54:  7b034 D 	 -     
+L1 HIT
+Count_Block Update
+L1 SET DIRTY
+Changed set	54:  7b034 D 	 -     
+# 30 : Read 7b034c68
+L1 Read: 7b034c68(tag 7b034, index 49)
+Current set	49:  df7     7b034 D 
+L1 HIT
+Count_Block Update
+Changed set	49:  df7     7b034 D 
+# 31 : Read df84d4
+L1 Read: df84d4(tag df8, index 19)
+Current set	19:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 32 : Read df84d5
+L1 Read: df84d5(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 33 : Read df84d6
+L1 Read: df84d6(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 34 : Read df84d7
+L1 Read: df84d7(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 35 : Read df84d8
+L1 Read: df84d8(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 36 : Read df84d9
+L1 Read: df84d9(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 37 : Read df84da
+L1 Read: df84da(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 38 : Read df84db
+L1 Read: df84db(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 39 : Read df84dc
+L1 Read: df84dc(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 40 : Read df84dd
+L1 Read: df84dd(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 41 : Read df84de
+L1 Read: df84de(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 42 : Read df84df
+L1 Read: df84df(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 43 : Read df84e0
+L1 Read: df84e0(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 44 : Read df84e1
+L1 Read: df84e1(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 45 : Read df84e2
+L1 Read: df84e2(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 46 : Read df84e3
+L1 Read: df84e3(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 47 : Read 4013893c
+L1 Read: 4013893c(tag 40138, index 36)
+Current set	36:  40138 D 	 -     
+L1 HIT
+Count_Block Update
+Changed set	36:  40138 D 	 -     
+# 48 : Write 7b034d94
+L1 Write: 7b034d94(tag 7b034, index 54)
+Current set	54:  7b034 D 	 -     
+L1 HIT
+Count_Block Update
+L1 SET DIRTY
+Changed set	54:  7b034 D 	 -     
+# 49 : Read 7b034c6c
+L1 Read: 7b034c6c(tag 7b034, index 49)
+Current set	49:  df7     7b034 D 
+L1 HIT
+Count_Block Update
+Changed set	49:  df7     7b034 D 
+# 50 : Read df84e4
+L1 Read: df84e4(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 51 : Read df84e5
+L1 Read: df84e5(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 52 : Read df84e6
+L1 Read: df84e6(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 53 : Read df84e7
+L1 Read: df84e7(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 54 : Read df84e8
+L1 Read: df84e8(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 55 : Read df84e9
+L1 Read: df84e9(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 56 : Read df84ea
+L1 Read: df84ea(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 57 : Read df84eb
+L1 Read: df84eb(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 58 : Read df84ec
+L1 Read: df84ec(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 59 : Read df84ed
+L1 Read: df84ed(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 60 : Read df84ee
+L1 Read: df84ee(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 61 : Read df84ef
+L1 Read: df84ef(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 62 : Read df84f0
+L1 Read: df84f0(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 63 : Read df84f1
+L1 Read: df84f1(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 64 : Read df84f2
+L1 Read: df84f2(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 65 : Read df84f3
+L1 Read: df84f3(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 66 : Read df84f4
+L1 Read: df84f4(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 67 : Read df84f5
+L1 Read: df84f5(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 68 : Read 40138938
+L1 Read: 40138938(tag 40138, index 36)
+Current set	36:  40138 D 	 -     
+L1 HIT
+Count_Block Update
+Changed set	36:  40138 D 	 -     
+# 69 : Read 423aeb90
+L1 Read: 423aeb90(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 70 : Write 7b034d58
+L1 Write: 7b034d58(tag 7b034, index 53)
+Current set	53:	 -     	 -     
+L1 MISS
+Count_Block Update
+L1 SET DIRTY
+Changed set	53:  7b034 D 	 -     
+# 71 : Write 7b034c80
+L1 Write: 7b034c80(tag 7b034, index 50)
+Current set	50:	 -     	 -     
+L1 MISS
+Count_Block Update
+L1 SET DIRTY
+Changed set	50:  7b034 D 	 -     
+# 72 : Read 7b034c68
+L1 Read: 7b034c68(tag 7b034, index 49)
+Current set	49:  df7     7b034 D 
+L1 HIT
+Count_Block Update
+Changed set	49:  df7     7b034 D 
+# 73 : Read df84d4
+L1 Read: df84d4(tag df8, index 19)
+Current set	19:  df8   	 -     
+L1 HIT
+Count_Block Update
+Changed set	19:  df8   	 -     
+# 74 : Read 40138938
+L1 Read: 40138938(tag 40138, index 36)
+Current set	36:  40138 D 	 -     
+L1 HIT
+Count_Block Update
+Changed set	36:  40138 D 	 -     
+# 75 : Read 40139dd0
+L1 Read: 40139dd0(tag 40139, index 55)
+Current set	55:  7b034 D   40139 D 
+L1 HIT
+Count_Block Update
+Changed set	55:  7b034 D   40139 D 
+# 76 : Read 423aeb92
+L1 Read: 423aeb92(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 77 : Read 423aeb94
+L1 Read: 423aeb94(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 78 : Read 423aeb88
+L1 Read: 423aeb88(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 79 : Read 423aeb88
+L1 Read: 423aeb88(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 80 : Read 423aeb88
+L1 Read: 423aeb88(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 81 : Read 423aeb88
+L1 Read: 423aeb88(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 82 : Read 423aeb8c
+L1 Read: 423aeb8c(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 83 : Read 42351e38
+L1 Read: 42351e38(tag 42351, index 56)
+Current set	56:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	56:  42351   	 -     
+# 84 : Read 42351e3c
+L1 Read: 42351e3c(tag 42351, index 56)
+Current set	56:  42351   	 -     
+L1 HIT
+Count_Block Update
+Changed set	56:  42351   	 -     
+# 85 : Read 423aeb88
+L1 Read: 423aeb88(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 86 : Write 40022e80
+L1 Write: 40022e80(tag 40022, index 58)
+Current set	58:	 -     	 -     
+L1 MISS
+Count_Block Update
+L1 SET DIRTY
+Changed set	58:  40022 D 	 -     
+# 87 : Read 423aeb88
+L1 Read: 423aeb88(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 88 : Read 4214c9d4
+L1 Read: 4214c9d4(tag 4214c, index 39)
+Current set	39:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	39:  4214c   	 -     
+# 89 : Read 40002178
+L1 Read: 40002178(tag 40002, index 5)
+Current set	5:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	5:  40002   	 -     
+# 90 : Read 384130
+L1 Read: 384130(tag 384, index 4)
+Current set	4:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	4:  384   	 -     
+# 91 : Read 423aeb8c
+L1 Read: 423aeb8c(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae   	 -     
+# 92 : Read 42351e38
+L1 Read: 42351e38(tag 42351, index 56)
+Current set	56:  42351   	 -     
+L1 HIT
+Count_Block Update
+Changed set	56:  42351   	 -     
+# 93 : Read 42351e3c
+L1 Read: 42351e3c(tag 42351, index 56)
+Current set	56:  42351   	 -     
+L1 HIT
+Count_Block Update
+Changed set	56:  42351   	 -     
+# 94 : Read 401367d0
+L1 Read: 401367d0(tag 40136, index 31)
+Current set	31:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	31:  40136   	 -     
+# 95 : Read 7b0345e4
+L1 Read: 7b0345e4(tag 7b034, index 23)
+Current set	23:	 -     	 -     
+L1 MISS
+Count_Block Update
+Changed set	23:  7b034   	 -     
+# 96 : Write 423aeb8c
+L1 Write: 423aeb8c(tag 423ae, index 46)
+Current set	46:  423ae   	 -     
+L1 HIT
+Count_Block Update
+L1 SET DIRTY
+Changed set	46:  423ae D 	 -     
+# 97 : Write 423aeb94
+L1 Write: 423aeb94(tag 423ae, index 46)
+Current set	46:  423ae D 	 -     
+L1 HIT
+Count_Block Update
+L1 SET DIRTY
+Changed set	46:  423ae D 	 -     
+# 98 : Read 40022e80
+L1 Read: 40022e80(tag 40022, index 58)
+Current set	58:  40022 D 	 -     
+L1 HIT
+Count_Block Update
+Changed set	58:  40022 D 	 -     
+# 99 : Read 40139dd0
+L1 Read: 40139dd0(tag 40139, index 55)
+Current set	55:  7b034 D   40139 D 
+L1 HIT
+Count_Block Update
+Changed set	55:  7b034 D   40139 D 
+# 100 : Read 423aeb9c
+L1 Read: 423aeb9c(tag 423ae, index 46)
+Current set	46:  423ae D 	 -     
+L1 HIT
+Count_Block Update
+Changed set	46:  423ae D 	 -     
